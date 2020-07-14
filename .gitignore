@@ -1,3 +1,7 @@
-node_modules
-.vscode
-src/database/migrations
+node_modules/
+.vscode/
+src/database/migrations/
+.idea/
+build/
+tmp/*
+!tmp/.gitkeep

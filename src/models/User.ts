@@ -1,4 +1,9 @@
-import {Entity, Column, PrimaryGeneratedColumn, Timestamp, CreateDateColumn, UpdateDateColumn} from 'typeorm';
+import {Entity, 
+    Column, 
+    PrimaryGeneratedColumn,
+    CreateDateColumn,
+    UpdateDateColumn} 
+    from 'typeorm';
 
 
 
@@ -14,6 +19,10 @@ class Users{
     email : string;
 
     @Column()
+    avatar : string;
+
+
+    @Column()
     password : string;
     
     @CreateDateColumn()
@@ -21,6 +30,8 @@ class Users{
 
     @UpdateDateColumn()
     updated_at: Date;
+
+
 
 }
 
