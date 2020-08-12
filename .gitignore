@@ -1,6 +1,5 @@
 node_modules/
 .vscode/
-src/database/migrations/
 .idea/
 build/
 tmp/*
