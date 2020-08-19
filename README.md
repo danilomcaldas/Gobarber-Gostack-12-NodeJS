@@ -47,11 +47,8 @@
 - O usuário deve poder listar horários disponíveis em um dia especifico de um prestador;
 - O usuário deve poder realizar um novo agendamento com um prestador;
 
-
 **RNF**
 - A listagem de prestadores deve ser armazenada em cache;
-
-
 
 **RN**
 - Cada agendamento deve durar 1h exatamente;
